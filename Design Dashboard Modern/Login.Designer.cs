@@ -73,9 +73,10 @@ namespace Design_Dashboard_Modern
             this.bunifuGradientPanel1.GradientTopLeft = System.Drawing.Color.Black;
             this.bunifuGradientPanel1.GradientTopRight = System.Drawing.Color.Black;
             this.bunifuGradientPanel1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuGradientPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuGradientPanel1.Name = "bunifuGradientPanel1";
             this.bunifuGradientPanel1.Quality = 10;
-            this.bunifuGradientPanel1.Size = new System.Drawing.Size(344, 522);
+            this.bunifuGradientPanel1.Size = new System.Drawing.Size(459, 642);
             this.bunifuGradientPanel1.TabIndex = 5;
             // 
             // TxtContraseña
@@ -85,9 +86,10 @@ namespace Design_Dashboard_Modern
             this.TxtContraseña.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtContraseña.ForeColor = System.Drawing.Color.LightGray;
             this.TxtContraseña.HideSelection = false;
-            this.TxtContraseña.Location = new System.Drawing.Point(72, 406);
+            this.TxtContraseña.Location = new System.Drawing.Point(96, 500);
+            this.TxtContraseña.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtContraseña.Name = "TxtContraseña";
-            this.TxtContraseña.Size = new System.Drawing.Size(226, 18);
+            this.TxtContraseña.Size = new System.Drawing.Size(301, 22);
             this.TxtContraseña.TabIndex = 46;
             this.TxtContraseña.Tag = "";
             this.TxtContraseña.Text = "Contraseña";
@@ -100,9 +102,10 @@ namespace Design_Dashboard_Modern
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Poor Richard", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(149, 312);
+            this.label1.Location = new System.Drawing.Point(199, 384);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 24);
+            this.label1.Size = new System.Drawing.Size(96, 31);
             this.label1.TabIndex = 45;
             this.label1.Text = "LOGIN";
             // 
@@ -113,9 +116,10 @@ namespace Design_Dashboard_Modern
             this.TxtUsuario.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtUsuario.ForeColor = System.Drawing.Color.LightGray;
             this.TxtUsuario.HideSelection = false;
-            this.TxtUsuario.Location = new System.Drawing.Point(72, 358);
+            this.TxtUsuario.Location = new System.Drawing.Point(96, 441);
+            this.TxtUsuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtUsuario.Name = "TxtUsuario";
-            this.TxtUsuario.Size = new System.Drawing.Size(226, 18);
+            this.TxtUsuario.Size = new System.Drawing.Size(301, 22);
             this.TxtUsuario.TabIndex = 40;
             this.TxtUsuario.Tag = "";
             this.TxtUsuario.Text = "Usuario";
@@ -129,9 +133,10 @@ namespace Design_Dashboard_Modern
             this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogin.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogin.ForeColor = System.Drawing.Color.Chartreuse;
-            this.btnLogin.Location = new System.Drawing.Point(115, 456);
+            this.btnLogin.Location = new System.Drawing.Point(161, 553);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(134, 37);
+            this.btnLogin.Size = new System.Drawing.Size(179, 46);
             this.btnLogin.TabIndex = 44;
             this.btnLogin.Text = "Iniciar Sesion";
             this.btnLogin.UseVisualStyleBackColor = false;
@@ -142,9 +147,10 @@ namespace Design_Dashboard_Modern
             this.panel4.BackColor = System.Drawing.Color.White;
             this.panel4.Enabled = false;
             this.panel4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.panel4.Location = new System.Drawing.Point(69, 426);
+            this.panel4.Location = new System.Drawing.Point(92, 524);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(240, 1);
+            this.panel4.Size = new System.Drawing.Size(320, 1);
             this.panel4.TabIndex = 43;
             // 
             // panel5
@@ -152,9 +158,10 @@ namespace Design_Dashboard_Modern
             this.panel5.BackColor = System.Drawing.Color.White;
             this.panel5.Enabled = false;
             this.panel5.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.panel5.Location = new System.Drawing.Point(72, 378);
+            this.panel5.Location = new System.Drawing.Point(96, 465);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(240, 1);
+            this.panel5.Size = new System.Drawing.Size(320, 1);
             this.panel5.TabIndex = 41;
             // 
             // LineaSidebar
@@ -162,9 +169,10 @@ namespace Design_Dashboard_Modern
             this.LineaSidebar.BackColor = System.Drawing.Color.Transparent;
             this.LineaSidebar.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.LineaSidebar.LineThickness = 1;
-            this.LineaSidebar.Location = new System.Drawing.Point(11, 267);
+            this.LineaSidebar.Location = new System.Drawing.Point(15, 329);
+            this.LineaSidebar.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
             this.LineaSidebar.Name = "LineaSidebar";
-            this.LineaSidebar.Size = new System.Drawing.Size(323, 10);
+            this.LineaSidebar.Size = new System.Drawing.Size(431, 12);
             this.LineaSidebar.TabIndex = 7;
             this.LineaSidebar.Transparency = 255;
             this.LineaSidebar.Vertical = false;
@@ -173,9 +181,10 @@ namespace Design_Dashboard_Modern
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(90, 44);
+            this.pictureBox2.Location = new System.Drawing.Point(120, 54);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(185, 169);
+            this.pictureBox2.Size = new System.Drawing.Size(247, 208);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 25;
             this.pictureBox2.TabStop = false;
@@ -186,9 +195,10 @@ namespace Design_Dashboard_Modern
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(2, 237);
+            this.label2.Location = new System.Drawing.Point(3, 292);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(341, 29);
+            this.label2.Size = new System.Drawing.Size(420, 36);
             this.label2.TabIndex = 23;
             this.label2.Text = "Universidad Popular del Cesar";
             // 
@@ -197,9 +207,10 @@ namespace Design_Dashboard_Modern
             this.Salir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Salir.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Salir.Image = ((System.Drawing.Image)(resources.GetObject("Salir.Image")));
-            this.Salir.Location = new System.Drawing.Point(302, 12);
+            this.Salir.Location = new System.Drawing.Point(403, 15);
+            this.Salir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Salir.Name = "Salir";
-            this.Salir.Size = new System.Drawing.Size(30, 30);
+            this.Salir.Size = new System.Drawing.Size(40, 37);
             this.Salir.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Salir.TabIndex = 2;
             this.Salir.TabStop = false;
@@ -210,9 +221,10 @@ namespace Design_Dashboard_Modern
             this.Minimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.Minimizar.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Minimizar.Image = ((System.Drawing.Image)(resources.GetObject("Minimizar.Image")));
-            this.Minimizar.Location = new System.Drawing.Point(267, 12);
+            this.Minimizar.Location = new System.Drawing.Point(356, 15);
+            this.Minimizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Minimizar.Name = "Minimizar";
-            this.Minimizar.Size = new System.Drawing.Size(30, 30);
+            this.Minimizar.Size = new System.Drawing.Size(40, 37);
             this.Minimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Minimizar.TabIndex = 4;
             this.Minimizar.TabStop = false;
@@ -237,12 +249,13 @@ namespace Design_Dashboard_Modern
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(344, 522);
+            this.ClientSize = new System.Drawing.Size(459, 642);
             this.Controls.Add(this.bunifuGradientPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Login";
             this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -24,7 +24,7 @@ namespace Design_Dashboard_Modern
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
 
-        private Form activeForm = null;
+ 
         private void Salir_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -44,14 +44,14 @@ namespace Design_Dashboard_Modern
             else
             {
                 ///Docente
-                if ((TxtUsuario.Text == "Docente") && (TxtContraseña.Text == "docente123"))
+                if ((TxtUsuario.Text == "Estudiante") && (TxtContraseña.Text == "estudiante123"))
                 {
                     MenuUpcDocente abrir = new MenuUpcDocente();
                     abrir.Show();
                     this.Hide();
                 }
                 else
-                if ((TxtUsuario.Text == "Comite curricular") && (TxtContraseña.Text == "comite123"))
+                if ((TxtUsuario.Text == "Director programa") && (TxtContraseña.Text == "director123"))
                 {
                     MenuUpcComite abrir = new MenuUpcComite();
                     abrir.Show();

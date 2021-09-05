@@ -486,74 +486,38 @@ namespace Design_Dashboard_Modern
 
         private void ExDescripcion_Click(object sender, EventArgs e)
         {
-            LLenarDescripcion abrir = new LLenarDescripcion();
-            AddOwnedForm(abrir);
-            abrir.TxtDescripcionFrom.Text = TxtDescripcion.Text;
-            abrir.ShowDialog();
         }
 
         private void ExJustificacion_Click(object sender, EventArgs e)
         {
-            LLenarJustificacion abrir = new LLenarJustificacion();
-            AddOwnedForm(abrir);
-            abrir.TxtJustificacionFrom.Text = TxtJustificacion.Text;
-            abrir.ShowDialog();
         }
 
         private void ExObjetivoGeneral_Click(object sender, EventArgs e)
         {
-            LLenarObjetivoGeneral abrir = new LLenarObjetivoGeneral();
-            AddOwnedForm(abrir);
-            abrir.TxtObjetivoGeneralFrom.Text = TxtObjetivoGeneral.Text;
-            abrir.ShowDialog();
         }
 
         private void ExObjetivosEspecificos_Click(object sender, EventArgs e)
         {
-            LLenarObjetivoEspecifico abrir = new LLenarObjetivoEspecifico();
-            AddOwnedForm(abrir);
-            abrir.TxtOjetivosEspecificosFrom.Text = TxtObjetivosEspecificos.Text;
-            abrir.ShowDialog();
         }
 
         private void ExComponetes_Click(object sender, EventArgs e)
         {
-            LLenarComponentesGenericos abrir = new LLenarComponentesGenericos();
-            AddOwnedForm(abrir);
-            abrir.TxtComponetesGenericosFrom.Text = TxtComponetes.Text;
-            abrir.ShowDialog();
         }
 
         private void ExEstrategias_Click(object sender, EventArgs e)
         {
-            LLenarEstrategiasPedagogicas abrir = new LLenarEstrategiasPedagogicas();
-            AddOwnedForm(abrir);
-            abrir.TxtEstrategiasPedagogicasFrom.Text = TxtEstrategias.Text;
-            abrir.ShowDialog();
         }
 
         private void ExContenido_Click(object sender, EventArgs e)
         {
-            LLenarContenidosCompetencias abrir = new LLenarContenidosCompetencias();
-            AddOwnedForm(abrir);
-            abrir.TxtContenidosCompetenciasFrom.Text = TxtContenidos.Text;
-            abrir.ShowDialog();
         }
 
         private void ExMecanismoEvaluacion_Click(object sender, EventArgs e)
         {
-            LLenarMecanismoEvaluacion abrir = new LLenarMecanismoEvaluacion();
-            AddOwnedForm(abrir);
-            abrir.TxtMecanismoEvaluacionFrom.Text = TxtMecanismoEvaluacion.Text;
-            abrir.ShowDialog();
         }
 
         private void ExReferenciasBibliograficas_Click(object sender, EventArgs e)
         {
-            LLenarReferenciasBibliograficas abrir = new LLenarReferenciasBibliograficas();
-            AddOwnedForm(abrir);
-            abrir.TxtReferenciasBibliograficasFrom.Text = TxtReferenciasBibliograficas.Text;
-            abrir.ShowDialog();
         }
     }
 }
